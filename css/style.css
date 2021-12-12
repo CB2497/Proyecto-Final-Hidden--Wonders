@@ -1,0 +1,991 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@font-face{
+	font-family: "Holiday In Monday";
+		src: url("../fonts/Holiday In Monday.ttf");
+}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+header{
+	background-color: #0A1045;
+	padding: 20px 0;
+	
+}
+header a{
+	font-family: Holiday In Monday;
+	font-size: 26px;
+	margin: 0 15px 0 10px;
+	letter-spacing: 1.6px;
+	font-weight: lighter;
+}
+
+
+#hero-hw{
+	background-image: url("../img/hero-hw.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+	margin-bottom: 10px;
+
+}
+
+#hero-hw img{
+	width: 300px;
+	text-align: center;
+}
+
+#hero-hw h1{
+	font-family: Holiday In Monday;
+	color: #fff;
+	font-size: 80px;
+	text-align: center;
+	line-height: 95px;
+	margin-top: 100px;
+}
+
+#hero{
+	background-image: url("../img/cayos-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+}
+
+#hero h1{
+	font-family: Holiday In Monday;
+	color: #F9DC5C;
+	font-size: 120px;
+	text-align: center;
+	line-height: 95px;
+	
+}
+
+#hero h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+#hero-info p{
+	text-align: justify;
+	font-size: 18px;
+	margin: 40px 15px;
+}
+
+#hero-info{
+	text-align: center;
+	padding: 50px 0;
+}
+#hero-info .btn{
+	text-align: center;
+	background-color: #00C2D1;
+	color: #0A1045;
+	padding: 10px 15px;
+	font-family: Holiday In Monday;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.carousel{
+	margin-bottom: 100px;
+	width: 60%;
+	
+	
+	
+}
+.btn.btn-dark{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/*MAIN PAGE- COMAYAGUA*/
+
+#comayagua{
+	background-image: url("../img/comayagua-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 5% 0;
+	text-align: center;
+}
+
+#comayagua h1{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 120px;
+	text-align: center;
+	margin-top: 50px;
+	
+	
+}
+
+#comayagua h3{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 90px;
+	text-align: center;	
+}
+
+#comayagua p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#comayagua h2{
+	color: #D64550;
+	font-family: Holiday In Monday;
+	font-size: 150px;
+	margin-bottom: 60px;
+}
+
+#comayagua .btn{
+	text-align: center;
+	background-color: #00C2D1;
+	color: #0A1045;
+	padding: 10px 15px;
+	font-family: Holiday In Monday;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+/*MAIN PAGE- MACAW*/
+
+#macaw{
+	background-image: url("../img/macaw-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 6% 0;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#macaw h1{
+	font-family: Holiday In Monday;
+	color: #D64550;
+	font-size: 120px;
+	text-align: center;
+	line-height: 95px;
+	
+}
+
+#macaw h3{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 90px;
+	text-align: center;
+}
+
+#macaw p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	text-align: justify;
+	color: #FFFFFF;
+}
+
+#macaw .btn{
+	text-align: center;
+	background-color: #00C2D1;
+	color: #0A1045;
+	padding: 10px 15px;
+	font-family: Holiday In Monday;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
+footer{
+	background-color: #0A1045;
+	color: #FFFFFF;
+	padding: 50px 10px;
+	text-align: center;
+}
+
+
+footer h3{
+	font-size: 30px;
+}
+
+footer p{
+	font-size: 16px;
+}
+
+/*VAMOS A LA PLAYA- CAYOS*/
+
+#hero-cayos{
+	background-image: url("../img/cayos-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+}
+
+#hero-cayos h1{
+	font-family: Holiday In Monday;
+	color: #F9DC5C;
+	font-size: 120px;
+	text-align: center;
+	line-height: 95px;
+	
+}
+
+#hero-cayos h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 80px;
+	text-align: center;
+	
+}
+
+#cayos-info{
+	text-align: justify;
+	font-size: 18px;
+	margin: 40px 15px;
+}
+
+/*VAMOS A LA PLAYA- TELA*/
+
+#tela{
+	background-image: url("../img/tela-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+}
+
+#tela h1{
+	font-family: Holiday In Monday;
+	color: #D64550;
+	font-size: 120px;
+	text-align: center;
+
+}
+
+#tela h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#tela-info{
+	text-align: justify;
+	font-size: 18px;
+	margin: 40px 15px;
+}
+
+#tela-info h5{
+	font-weight: 600;
+}
+
+#tela-info .btn{
+	text-align: center;
+	background-color: #00C2D1;
+	color: #0A1045;
+	padding: 10px 15px;
+	font-family: Holiday In Monday;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+}
+
+
+/*VAMOS A LA PLAYA- UTILA*/
+
+#utila{
+	background-image: url("../img/utila-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+}
+
+#utila h1{
+	font-family: Holiday In Monday;
+	color: #F9DC5C;
+	font-size: 120px;
+	text-align: center;
+
+}
+
+#utila h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#utila-info{
+	text-align: justify;
+	font-size: 18px;
+	margin: 40px 0 100px 0;
+}
+
+.list-social i{
+	color: #FFFFFF;
+	width: 60px;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+/*LUGARES HISTORICOS- RASTROJON*/
+#hero-rastrojon{
+	background-image: url("../img/rastrojon-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+}
+
+#hero-rastrojon h1{
+	font-family: Holiday In Monday;
+	color: #F9DC5C;
+	font-size: 120px;
+	text-align: center;
+
+}
+
+#hero-rastrojon h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#rastrojon-info{
+	text-align: justify;
+	font-size: 18px;
+	margin: 40px 0 100px 0;
+}
+
+.list-social i{
+	color: #FFFFFF;
+	width: 60px;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+#rosalila-info .btn{
+	text-align: center;
+	background-color: #00C2D1;
+	color: #0A1045;
+	padding: 10px 15px;
+	font-family: Holiday In Monday;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+}
+
+/*LUGARES HISTORICOS- The Tea and Chocolate Place*/
+#tea{
+	background-image: url("../img/tea-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+}
+
+#tea h1{
+	font-family: Holiday In Monday;
+	color: #F9DC5C;
+	font-size: 120px;
+	text-align: center;
+	line-height: 95px;
+
+}
+
+#tea h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#tea-info{
+	text-align: justify;
+	font-size: 18px;
+	margin: 40px 0 100px 0;
+}
+
+.list-social i{
+	color: #FFFFFF;
+	width: 60px;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+
+/*LUGARES HISTORICOS- Rosalila*/
+#rosalila{
+	background-image: url("../img/rosalila-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+}
+
+#rosalila h1{
+	font-family: Holiday In Monday;
+	color: #F9DC5C;
+	font-size: 120px;
+	text-align: center;
+	line-height: 95px;
+
+}
+
+#rosalila h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#rosalila-info{
+	text-align: justify;
+	font-size: 18px;
+	margin: 40px 0 100px 0;
+}
+
+.list-social i{
+	color: #FFFFFF;
+	width: 60px;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+
+/*RESPIRA NATURALEZA- Macaw Mountains*/
+#hero-macaw{
+	background-image: url("../img/macaw-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+}
+
+#hero-macaw h1{
+	font-family: Holiday In Monday;
+	color: #F9DC5C;
+	font-size: 120px;
+	text-align: center;
+	line-height: 95px;
+
+}
+
+#hero-macaw h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#macaw-info{
+	text-align: justify;
+	font-size: 18px;
+	margin: 40px 0 100px 0;
+}
+
+/*RESPIRA NATURALEZA- Cuevas de Talgua*/
+#talgua{
+	background-image: url("../img/cuevas-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+}
+
+#talgua h1{
+	font-family: Holiday In Monday;
+	color: #00C2D1;
+	font-size: 120px;
+	text-align: center;
+	line-height: 95px;
+
+}
+
+#talgua h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#talgua-info{
+	text-align: justify;
+	font-size: 18px;
+	margin: 40px 0 100px 0;
+}
+
+/*RESPIRA NATURALEZA- Cataratas de Pulhapanzak*/
+#cataratas{
+	background-image: url("../img/cataratas-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 5% 0;
+}
+
+#cataratas h1{
+	font-family: Holiday In Monday;
+	color: #D64550;
+	font-size: 120px;
+	text-align: center;
+	line-height: 95px;
+
+}
+
+#cataratas h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#cataratas-info{
+	text-align: justify;
+	font-size: 18px;
+	margin: 40px 0 100px 0;
+}
+
+
+#cataratas-info .btn{
+	text-align: center;
+	background-color: #00C2D1;
+	color: #0A1045;
+	padding: 10px 15px;
+	font-family: Holiday In Monday;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+}
+
+/*OFERTONES- */
+#ofertones{
+	background-image: url("../img/comayagua-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 10% 0;
+}
+
+#ofertones h1{
+	font-family: Holiday In Monday;
+	color: #F9DC5C;
+	font-size: 120px;
+	text-align: center;
+
+}
+
+#ofertones h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 10px;
+	line-height: 20px;
+}
+
+#ofertones-1{
+	background-image: url("../img/hotel-gal-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 5% 0;
+}
+
+#ofertones-1 h1{
+	font-family: Holiday In Monday;
+	color: #D64550;
+	font-size: 120px;
+	text-align: center;
+	
+}
+
+#ofertones-1 h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 80px;
+	text-align: center;
+	margin-left: 10px;
+	line-height: 20px;
+	
+}
+
+
+#ofertones-1 h3{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 60px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+#ofertones-1 p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#ofertones-2{
+	background-image: url("../img/hotel-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 5% 0;
+}
+
+#ofertones-2 h3{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 40px;
+	text-align: left;
+
+}
+
+#ofertones-2 p{
+	margin-top: 90px;
+	color: #fff;
+}
+
+.gal img{
+	margin-top: 15px;
+}
+
+
+
+/*Gastronomia - Tela */
+#gastronomia-tela{
+	background-image: url("../img/gastro-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 5% 0;
+}
+
+#gastronomia-tela h1{
+	font-family: Holiday In Monday;
+	color: #D64550;
+	font-size: 120px;
+	text-align: center;
+	line-height: 95px;
+
+}
+
+#gastronomia-tela h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 60px;
+	text-align: center;
+	margin-left: 10px;
+	line-height: 40px;
+}
+
+#gastronomia-tela-info{
+	text-align: center;
+	font-size: 18px;
+	margin: 40px 0 100px 0;
+}
+
+/*Gastronomia - Copán */
+#gastronomia-copan{
+	background-image: url("../img/gastro-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 5% 0;
+}
+
+#gastronomia-copan h1{
+	font-family: Holiday In Monday;
+	color: #F9DC5C;
+	font-size: 120px;
+	text-align: center;
+	line-height: 95px;
+
+}
+
+#gastronomia-copan h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 60px;
+	text-align: center;
+	margin-left: 10px;
+	line-height: 40px;
+}
+
+#gastronomia-copan-info{
+	text-align: center;
+	font-size: 18px;
+	margin: 40px 0 100px 0;
+}
+
+/*Gastronomia - Lago */
+#gastronomia-lago{
+	background-image: url("../img/gastro-3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 5% 0;
+}
+
+#gastronomia-lago h1{
+	font-family: Holiday In Monday;
+	color: #F9DC5C;
+	font-size: 120px;
+	text-align: center;
+	line-height: 95px;
+
+}
+
+#gastronomia-lago h2{
+	font-family: Holiday In Monday;
+	color: #FFFFFF;
+	font-size: 60px;
+	text-align: center;
+	margin-left: 10px;
+	line-height: 40px;
+}
+
+#gastronomia-lago-info{
+	text-align: center;
+	font-size: 18px;
+	margin: 40px 0 100px 0;
+}
+
+
+
+
+/*definición para PC*/
+@media (min-width:1200px){
+	
+}
+
+
+/*definición para Tablet*/
+@media (min-width:480px) and (max-width:1200px){
+
+	
+}
+
+
+
+/*definición para celular*/
+@media(max-width:480px){
+	#hero h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#comayagua h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#comayagua h3{
+		font-size: 50px;
+	}
+	
+	#comayagua h2{
+		font-size: 80px;
+	}
+	
+	#comayagua p{
+		font-size: 20px;
+	}
+	
+	#macaw h1{
+		font-size: 90px;
+		line-height: 70px;
+		}
+	#hero-cayos h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#tela h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#utila h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+
+	
+	#hero-rastrojon h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#gastronomia-copan h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#gastronomia-tela h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#gastronomia-lago h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#tea h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#hero-hw img{
+		margin-top: 30px;
+		width: 200px;
+	}
+	#hero-hw h1{
+		font-size: 40px;
+		line-height: 30px;
+		margin-bottom: 50px;
+		width: 70%;
+	}
+	#talgua h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#hero-macaw h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#rosalila h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#cataratas h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#ofertones h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#ofertones-1 h1{
+		font-size: 90px;
+		line-height: 70px;
+	}
+	
+	#macaw h2{
+		font-size: 60px;
+		line-height: 70px;
+		}
+	
+	#macaw h3{
+		font-size: 60px;
+		line-height: 70px;
+		}
+	#hero-cayos h2{
+		font-size: 40px;
+		line-height: 50px;
+	}
+	
+	#tela h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	#utila h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	#gastronomia-copan h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	#gastronomia-tela h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	#gastronomia-lago h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	#hero-rastrojon h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	
+	#tea h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	#talgua h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	#hero-macaw h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	#rosalila h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	#cataratas h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	#ofertones h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+	
+	#ofertones-1 h2{
+		font-size: 40px;
+		line-height: 40px;
+	}
+}
+
+
